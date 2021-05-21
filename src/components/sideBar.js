@@ -8,7 +8,13 @@ function sideBar() {
         <FaReact/>
         <h1>Company</h1>
       </div>
-      <div>
+      <div id="menuArea">
+
+      </div>
+      <div id="configsArea">
+
+      </div>
+      <div id="accountArea">
 
       </div>
     </aside>
