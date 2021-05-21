@@ -3,11 +3,10 @@ import Button from "./asideButton";
 
 import { FaReact } from 'react-icons/fa';
 import { RiHomeLine } from 'react-icons/ri'
-import { BsListUl } from 'react-icons/bs'
+import { BsListUl, BsPeople, BsGear } from 'react-icons/bs'
 import { BiMessageRoundedDetail } from 'react-icons/bi'
 import { HiOutlineFolderOpen } from 'react-icons/hi'
-import { BsPeople } from 'react-icons/bs'
-
+import { IoMdNotificationsOutline } from 'react-icons/io'
 
 function sideBar() {
   return (
@@ -24,7 +23,8 @@ function sideBar() {
         <Button icon={<BsPeople/>} text='Customers'/>
       </div>
       <div id="configsArea">
-
+        <Button icon={<BsGear/>} text='Settings'/>
+        <Button icon={<IoMdNotificationsOutline/>} text='Notifications'/>
       </div>
       <div id="accountArea">
 
