@@ -1,0 +1,22 @@
+.asideButton {
+    background-color: transparent;
+    border: none;
+    display: flex;
+    align-items: center;
+    width: 100%;
+    padding: .5rem 0;
+    margin: 10px 0;
+}
+
+.asideButton:hover {
+    background-color: #f3f3f3;
+}
+
+.asideButton svg {
+    color: black;
+    margin: 0 1rem;
+}
+
+.asideButton p {
+    color: black;
+}

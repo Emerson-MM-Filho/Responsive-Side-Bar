@@ -2,7 +2,7 @@ import './asideButton.css'
 
 function button({icon, text}) {
   return (
-    <button>
+    <button className="asideButton">
       {icon}
       <p>{text}</p>
     </button>
