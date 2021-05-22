@@ -20,8 +20,9 @@ aside {
 }
 
 #logoArea #logoIcon {
-    margin: 0 2rem;
-    fill: #373F41;
+    margin: 0 1.2rem;
+    width: 60px;
+    color: #373F41;
 }
 
 #logoArea #companyName {
@@ -47,3 +48,20 @@ aside {
     bottom: 0;
 }
 
+@media (max-width: 1080px) {
+    aside {
+        width: 8%;
+    }
+
+    #menuContainer {
+        width: 70%;
+    }
+
+    #logoArea #logoIcon {
+       width: 60px;
+    }
+
+    #logoArea #companyName {
+        display: none;
+    }
+}

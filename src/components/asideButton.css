@@ -29,3 +29,13 @@
 .asideButton:hover p {
     color: #FFFFFF;
 }
+
+@media (max-width: 1080px) {
+    .asideButton svg{
+        margin: auto;
+    }
+
+    .asideButton p {
+        display: none;
+    }
+}
