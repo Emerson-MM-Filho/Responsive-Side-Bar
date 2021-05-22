@@ -2,4 +2,36 @@ aside {
     width: 15%;
     height: 100vh;
     background-color: white;
+    position: relative;
 }
+
+#logoArea {
+    width: 100%;
+    height: 15%;
+    display: flex;
+    align-items: center;
+}
+
+#logoArea svg {
+    margin: 0 2rem;
+}
+
+#menuArea {
+    width: 100%;
+    border-bottom: 1px solid #DBDDE0;
+    padding-bottom: 10%;
+}
+
+#configsArea {
+    width: 100%;
+    height: 30%;
+    padding-top: 10%;
+}
+
+#accountArea {
+    width: 100%;
+    height: 10%;
+    position: absolute;
+    bottom: 0;
+}
+

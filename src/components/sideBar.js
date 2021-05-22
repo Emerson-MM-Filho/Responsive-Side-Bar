@@ -16,7 +16,7 @@ function sideBar() {
   return (
     <aside>
       <div id="logoArea">
-        <FaReact/>
+        <FaReact size={"4rem"}/>
         <h1>Company</h1>
       </div>
       <div id="menuArea">
