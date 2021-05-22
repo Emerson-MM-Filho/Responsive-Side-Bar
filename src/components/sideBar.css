@@ -2,12 +2,13 @@ aside {
     width: 15%;
     height: 100vh;
     background-color: white;
-    position: relative;
 }
 
 #menuContainer {
     width: 90%;
+    height: 100%;
     margin: auto;
+    position: relative;
 }
 
 #logoArea {
