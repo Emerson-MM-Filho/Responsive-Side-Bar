@@ -5,17 +5,27 @@
     align-items: center;
     width: 100%;
     padding: .8rem 0;
+    transition: .5s ease-in-out;
 }
 
 .asideButton:hover {
-    background-color: #f3f3f3;
+    background-color: #373F41;
+    border-radius: 5px;
 }
 
 .asideButton svg {
-    color: black;
+    color: #373F41;
     margin: 0 2rem;
 }
 
+.asideButton:hover svg {
+    color: #FFFFFF;
+}
+
 .asideButton p {
-    color: black;
+    color: #373F41;
+}
+
+.asideButton:hover p {
+    color: #FFFFFF;
 }
